@@ -1,0 +1,588 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+html {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 16px;
+}
+
+.clearfix
+{
+    clear: both;
+}
+
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+#sec1
+{
+    background: url('../images/banner.jpg') no-repeat ;
+    background-position: -650px center;
+    height: 100vh;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#sec1 nav
+{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+   
+}
+
+ #sec1 nav ul
+ {
+     list-style: none;
+ }
+
+ #sec1 nav ul:last-of-type li
+ {
+   display:inline-block   
+ }
+
+ #sec1 nav ul:last-of-type li a
+ {
+   display:inline-block;  
+   color: #fff;
+   border-radius: 50%;
+   border: thin solid #fff;
+   padding: 8px 10px;
+   margin: 15px 3px;
+ 
+ }
+
+ #sec1 nav ul:first-of-type li a 
+ {
+     display: block;
+     color: #fff;
+     padding: 10px 0;
+     font-size: .8rem;
+     transition: all .5s ease;
+ }
+
+ #sec1 nav ul:first-of-type li a:hover
+ {
+   color: #000;
+   background: #FDDF5B;
+ }
+
+ #sec1 label {
+	display: inline-block;
+	margin-top: 7px;
+	font-size: 1.5rem;
+	border:1px solid #fff;
+    padding:  5px;
+    color: #fff;
+	border-radius: 4px;
+	float: right;
+}
+
+#sec1 input {
+	display: none;
+}
+
+#menu+div {
+	display: none;
+}
+
+#menu:checked+div {
+	display: block;
+}
+
+#sec1>.container
+{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-bottom: 50px;
+}
+
+#sec1>.container * {
+	flex-basis: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#sec1>.container a {
+	flex-basis: auto;
+	
+}
+
+#sec1 h1{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+#sec1 h1 span{
+  color:  #CD8383;
+}
+
+#sec1>.container a
+{
+     background-color: #fff;
+     color: black;
+     display: inline-block;
+     padding: 10px 15px;
+     font-size: .9rem;
+     border-radius: 20px;
+
+}
+
+#sec2
+{
+    background-color: black;
+    color: #fff;
+    padding: 30px 0;
+}
+
+#sec2 h1
+{
+    color: #FAC769;
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+
+}
+
+#sec2 p
+{
+   text-align: justify;
+   font-size: .9rem;
+
+}
+#sec3
+{
+    background:url('../images/sep.png') no-repeat ;
+    padding: 30px 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    
+}
+
+#sec4 {
+	padding: 40px 0;
+}
+
+#sec4 figure img{
+    width: 100%;
+    height: auto;
+}
+
+#sec4 figure
+{
+    position: relative;
+  
+    margin-bottom: 15px;
+}
+
+#sec4 figure span
+{
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+    top: 15px;
+    left: 15px;
+    display: inline-block;
+    padding: 7px 15px;
+    border-radius: 10px;
+    font-size: .8rem;
+    color: #fff;
+
+}
+#sec4 figcaption
+{
+    background-color: #000;
+    color: #fff;
+    padding: 30px 15px 20px;
+}
+
+#sec4 h1{
+   text-transform: capitalize;
+   font-size: 1.7rem;
+   margin-bottom: 20px;
+}
+
+#sec4 h2{
+    text-transform: capitalize;
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+	color: #FAC769;
+ }
+
+ #sec4 p{
+     text-align: justify;
+     font-size: .9rem;
+ }
+#sec5
+{
+    background-color: #000;
+    padding: 50px 0;
+}
+
+#sec5 h1
+{
+    color: #FDDF5B;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+}
+ #sec5 article img
+ {
+     width: 100%;
+     height: auto;
+     margin-bottom: 10px;
+ }
+
+ #sec6
+ {
+     background: url('../images/sep.png') no-repeat;
+     color: #fff;
+     padding: 30px 0 50px ;
+     text-transform: capitalize;
+ }
+
+ #sec6
+ {
+     background: url('../images/sep.png') no-repeat;
+     color: #fff;
+     padding: 30px 0 10px ;
+     text-transform: capitalize;
+ }
+
+ #sec6 h1
+ {
+     margin: 12px 0;
+     font-size: 1.3rem;
+ }
+
+ #sec6 a
+ {
+     display: inline-block;
+     background-color: #fff;
+     color: #000;
+     padding: 5px 15px;
+     border-radius: 20px;
+ }
+#sec6 .container>div{
+    padding-left: 60px;
+}
+#sec7
+{
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
+}
+
+#sec7 .container>h1 {
+	font-size: 1.5rem;
+	font-weight: 300;
+	margin-bottom: 15px;
+}
+#sec7 .container>p {
+	font-size: 0.9rem;
+	margin-bottom: 15px;
+	text-align: justify;
+}
+#sec7 main img 
+{
+    width: 100%;
+    height: auto;
+}
+
+#sec7 main h1 {
+	font-size: 1.8rem;
+	font-weight: 600;
+	margin: 15px 0 5px;
+	text-align: center;
+}
+
+#sec7 main h4 {
+	font-size: 1.2rem;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+#sec7 main p {
+	font-size: 0.9rem;
+	text-align: center;
+}
+ 
+#sec8
+{
+    background:   linear-gradient(rgba(51, 106, 130, 0.5),rgba(51, 106, 130, 0.5)),
+    url('../images/contactus.jpg') no-repeat center center;
+    border-bottom: thin solid #fff;
+    padding: 30px 0;
+    color: #fff;
+}
+
+#sec8 h1
+{
+    color: #FAC769;
+	font-size: 1.7rem;
+	font-weight: 600;
+	margin-bottom: 15px;
+	text-transform: capitalize;
+}
+
+#sec8 p{
+	text-align: justify;
+	margin-bottom: 25px;
+
+}
+
+#sec8 form
+{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 5px 4px #FDDF5B;
+    padding: 10px;
+    border-radius: 20px;
+    border: thin solid #FFBC00;
+
+}
+
+#sec8 form *
+{
+    flex-basis: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 20px;
+
+}
+
+#sec8 form input[type=submit]
+{
+    background-color: #FFBC00;
+	letter-spacing: 2px;
+
+}
+#sec9
+{
+    background-color: #000;
+    border-top: 8px solid #FFBC00;
+    color: #fff;
+    padding: 50px 0;
+}
+
+#sec9 ul
+{
+    list-style: none;
+    margin-bottom: 10px;
+    
+}
+
+#sec9 ul li
+{
+    padding: 5px 0 ;
+}
+
+#sec9 ul li i
+{
+    padding-right: 8px  ;
+}
+
+#sec9 figure 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+#sec9 figure img{
+    width: 22%;
+    height: auto;
+}
+
+#sec9 input{
+   border-style: hidden hidden groove ;
+   outline: none;
+     padding: 5px 10px;
+     width: 100%;
+     background: none;
+}
+
+#sec9 a
+{
+    display: block;
+    margin-top: 20px;
+    color: #000;
+    background-color: #fff;
+     border-radius: 20px;
+     width: 60px;
+     padding: 5px 20px;
+}
+
+
+@media (min-width: 576px) {
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .container {
+		width: 720px;
+    }
+
+
+    #sec1 nav
+{
+
+    padding: 0;
+}
+    #sec1 label {
+		display: none;
+	}
+	
+    #sec1 nav ul:first-of-type li 
+    {
+        display: inline-block;
+        padding: 0 10px;
+       
+       
+    }
+    #sec1 nav ul:first-of-type li a 
+    {
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+    #sec1 .container>div
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #sec5 article
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #sec5 article img
+    {
+        width: 49%;
+    }
+
+    #sec6 .container>div
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #sec6 .container>div article
+    {
+        flex-basis: 44%;
+    }
+
+    #sec7 main>div
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #sec7 main>div article
+    {
+        flex-basis: 49%;
+    }
+
+    #sec8 .container
+    {
+        display: flex;
+          flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #sec8 .container>div
+    {
+        flex-basis: 60%;
+    }
+
+    #sec8 .container>form
+    {
+        flex-basis: 30%;
+    }
+
+    #sec9 .container
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #sec9 ul 
+    {
+        flex-basis: 32%;
+    }
+
+    #sec9 .container div
+    {
+        flex-basis: 32%;
+    }
+    
+	
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .container
+    {
+        width: 940px;
+    }
+
+    
+    #sec1
+    {
+        background-position: center center;
+    }
+
+    #sec4 .container>div
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #sec4 .container figure
+    {
+        flex-basis: 32%;
+    }
+
+    #sec5 article img
+    {
+        width: 24%;
+    }
+
+    #sec7 main
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #sec7 main img , #sec7 main>div
+    {
+        width: 49%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container
+    {
+        width: 1160px;
+    }
+}
